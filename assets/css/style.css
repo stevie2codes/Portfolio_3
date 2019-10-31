@@ -1,4 +1,21 @@
- 
+body{
+    margin:0;
+    padding:0;
+}
+
+.welcome {
+    background-image: url(../images/hero-1.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;   
+   
+}  
+
+
 :root{
  --lightgrey-color: #979DA6; 
  --darkGrey-blue: #424A59;
@@ -42,10 +59,12 @@ h2{
 }
 
 h1, h2, p{
-    margin-top: 0;
+    margin-top:0;
     margin-bottom: 1em;
 }
 
+
 img{
-    width: 200px;
+  max-width:100%;
 }
+
