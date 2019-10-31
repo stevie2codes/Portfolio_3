@@ -1,3 +1,25 @@
+ 
+:root{
+ --lightgrey-color: #979DA6; 
+ --darkGrey-blue: #424A59;
+ --darkGrey-color: #4A5259;
+ --softBlue-color: #5E7B8C;
+ --black-color: #0D0D0D;
+}
+
+
+body{
+    color:var(--lightgrey-color);
+    font-family: 'Big Shoulders Display', cursive;
+    line-height: 1.6;
+    background: white;
+
+}
+
+h1{
+    color:
+}
+
 img{
     width: 200px;
 }
