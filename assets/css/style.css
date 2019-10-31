@@ -9,15 +9,41 @@
 
 
 body{
-    color:var(--lightgrey-color);
+    color:var(--darkGrey-blue);
     font-family: 'Big Shoulders Display', cursive;
     line-height: 1.6;
     background: white;
+    text-transform: capitalize;
 
 }
 
 h1{
-    color:
+    color: var(--softBlue-color);
+    line-height: 1;
+    font-size: 3.125rem;
+    letter-spacing: 15px;
+    text-transform: capitalize;
+}
+
+h1 span {
+    color: var(--softBlue-color);
+    display: block;
+    font-size: 5.4rem;
+    letter-spacing: 24px; 
+    text-transform: capitalize;
+}
+
+h2{
+    font-size: 2rem;
+    letter-spacing: 12px;
+    color: var(--darkGrey-color);
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+h1, h2, p{
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 img{
